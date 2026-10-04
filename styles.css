@@ -248,17 +248,17 @@ button {
    -------------------------------------------------------------------------- */
 .hero-section {
   position: relative;
-  min-height: 520px;
+  min-height: 540px;
   display: flex;
   align-items: center;
   background-color: #2D2721;
-  background-image: linear-gradient(rgba(26, 21, 18, 0.62), rgba(26, 21, 18, 0.72)),
+  background-image: linear-gradient(rgba(22, 18, 16, 0.55), rgba(22, 18, 16, 0.68)),
                     url('assets/hero-bg.jpg');
   background-size: cover;
-  background-position: center 40%;
+  background-position: center 48%;
   color: #FFFFFF;
   text-align: center;
-  padding: 90px 20px;
+  padding: 95px 20px;
 }
 
 .hero-content {
