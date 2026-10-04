@@ -248,17 +248,17 @@ button {
    -------------------------------------------------------------------------- */
 .hero-section {
   position: relative;
-  min-height: 480px;
+  min-height: 520px;
   display: flex;
   align-items: center;
   background-color: #2D2721;
-  background-image: linear-gradient(rgba(35, 28, 23, 0.45), rgba(35, 28, 23, 0.65)),
-                    url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=80');
+  background-image: linear-gradient(rgba(26, 21, 18, 0.62), rgba(26, 21, 18, 0.72)),
+                    url('assets/hero-bg.jpg');
   background-size: cover;
-  background-position: center 35%;
+  background-position: center 40%;
   color: #FFFFFF;
   text-align: center;
-  padding: 80px 20px;
+  padding: 90px 20px;
 }
 
 .hero-content {
