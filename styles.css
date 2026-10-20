@@ -681,6 +681,62 @@ button {
   box-shadow: var(--shadow-sm);
 }
 
+/* Tag de Cor na Foto do Produto */
+.photo-color-tag {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background-color: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: 5px 12px;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-text-main);
+  box-shadow: 0 4px 14px rgba(35, 32, 29, 0.12);
+  border: 1px solid rgba(234, 227, 217, 0.8);
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  z-index: 2;
+  letter-spacing: 0.02em;
+}
+
+.photo-color-tag .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+/* Badge de Cor no Corpo do Card */
+.product-color-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: var(--color-sand-100);
+  border: 1px solid var(--color-border);
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--color-text-main);
+  margin-bottom: 8px;
+  width: fit-content;
+}
+
+.product-color-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  flex-shrink: 0;
+}
+
 .wishlist-btn {
   position: absolute;
   top: 12px;
