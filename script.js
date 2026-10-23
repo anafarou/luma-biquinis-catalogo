@@ -34,7 +34,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const productName = card.dataset.name || 'Biquíni';
     const productPrice = card.dataset.price || '';
     const selectedSizeBadge = card.querySelector('.size-badge.available.selected') || card.querySelector('.size-badge.available');
-    const selectedSize = selectedSizeBadge ? selectedSizeBadge.dataset.size : 'Tamanho Único';
+    let selectedSize = 'Tamanho Único';
+    if (selectedSizeBadge) {
+      selectedSize = selectedSizeBadge.dataset.size;
+    } else if (card.dataset.sizes === 'UNICO') {
+      selectedSize = 'Tamanho Único';
+    } else if (card.dataset.sizes) {
+      selectedSize = card.dataset.sizes;
+    }
     const ctaButton = card.querySelector('.btn-reserve-whatsapp');
 
     if (!ctaButton) return;
