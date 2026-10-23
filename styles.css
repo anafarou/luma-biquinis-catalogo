@@ -290,10 +290,10 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
   display: flex;
   align-items: center;
   background-color: #211E1C;
-  background-image: linear-gradient(rgba(33, 30, 28, 0.48), rgba(33, 30, 28, 0.65)),
-                    url('assets/hero-bg.jpg');
+  background-image: linear-gradient(rgba(33, 30, 28, 0.45), rgba(33, 30, 28, 0.62)),
+                    url('assets/hero-bg.jpg?v=20261023');
   background-size: cover;
-  background-position: center 46%;
+  background-position: center center;
   color: #FFFFFF;
   text-align: center;
   padding: 80px 24px;
