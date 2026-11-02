@@ -1,10 +1,10 @@
 /**
- * LUMA BIQUÍNIS — Script Interativo do Catálogo de Biquínis
+ * SALSA MAR — Script Interativo do Catálogo de Biquínis
  * WhatsApp Oficial: (19) 99783-2341
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Telefone padrão oficial da Luma Biquínis
+  // Telefone padrão oficial da Salsa Mar
   let sellerPhone = '5519997832341';
   let currentCategory = 'all';
   let currentSizeFilter = 'all';
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!ctaButton) return;
 
-    const message = `Olá, Luma Biquínis! ☀️ Gostaria de reservar o seguinte modelo do catálogo:\n\n👙 *Modelo:* ${productName}\n📏 *Tamanho:* ${selectedSize}\n🏷️ *Valor:* ${productPrice}\n\nVocê poderia confirmar a disponibilidade e o prazo de entrega? Muito obrigada!`;
+    const message = `Olá, Salsa Mar! ☀️ Gostaria de reservar o seguinte modelo do catálogo:\n\n👙 *Modelo:* ${productName}\n📏 *Tamanho:* ${selectedSize}\n🏷️ *Valor:* ${productPrice}\n\nVocê poderia confirmar a disponibilidade e o prazo de entrega? Muito obrigada!`;
     const cleanPhone = cleanPhoneNumber(sellerPhone);
     const waUrl = `https://wa.me/${cleanPhone}?text=${encodeURIComponent(message)}`;
 
@@ -61,12 +61,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const cleanPhone = cleanPhoneNumber(sellerPhone);
     if (floatingWaBtn) {
-      floatingWaBtn.href = `https://wa.me/${cleanPhone}?text=${encodeURIComponent("Olá! ☀️ Estou no catálogo da Luma Biquínis e gostaria de ajuda para escolher meu biquíni.")}`;
+      floatingWaBtn.href = `https://wa.me/${cleanPhone}?text=${encodeURIComponent("Olá! ☀️ Estou no catálogo da Salsa Mar e gostaria de ajuda para escolher meu biquíni.")}`;
     }
 
     const headerWaBtn = document.querySelector('.header-whatsapp-btn');
     if (headerWaBtn) {
-      headerWaBtn.href = `https://wa.me/${cleanPhone}?text=${encodeURIComponent("Olá! Gostaria de falar com o atendimento da Luma Biquínis.")}`;
+      headerWaBtn.href = `https://wa.me/${cleanPhone}?text=${encodeURIComponent("Olá! Gostaria de falar com o atendimento da Salsa Mar.")}`;
     }
   }
 
