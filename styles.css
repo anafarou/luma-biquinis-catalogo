@@ -1,60 +1,60 @@
 /* ==========================================================================
-   LUMA BIQUÍNIS — ATELIER PRAIA
+   SALSA MAR / LUMA BIQUÍNIS — ATELIER PRAIA
    Identidade Visual da Marca:
-   - Destaque / Botões: Laranja Terracota / Coral vibrante da tipografia (#E74C24)
-   - Apoio Suave: Rosa blush / pêssego suave da florzinha (#F7C2B4 / #F5B8A8)
-   - Fundo da Página: Off-white / marfim suave acolhedor (#FBF7F2)
-   - Textos: Grafite suave e elegante (#2B2B2B)
+   - Cor de Destaque / Acentos: Verde-água/azul suave litorâneo (#7EA8A4)
+   - Fundo Principal: Off-white suave e areia claríssimo (#FAF8F5)
+   - Fundo dos Cards / Blocos de Produto: Branco limpo (#FFFFFF)
+   - Textos e Tipografia: Cinza escuro suave / grafite (#2D312E)
+   - Linhas e Bordas Sutis: Bege acinzentado discreto (#E8E4DC)
+   - Estilo: Minimalista, limpo e sofisticado (estética Apple)
    ========================================================================== */
 
 :root {
-  /* Fundo da Página: Off-white / marfim suave da logo */
-  --color-bg-base: #FBF7F2;         /* Off-white marfim suave acolhedor */
-  --color-bg-subtle: #F6EFE7;       /* Marfim suave secundário */
-  --color-bg-warm: #EFE6DC;         /* Apoio neutro quente */
-  --color-card-bg: #FFFFFF;         /* Fundo dos cartões */
+  /* Fundo Principal: Off-white suave e areia claríssimo */
+  --color-bg-base: #FAF8F5;         /* Off-white suave e areia claríssimo */
+  --color-bg-subtle: #F4EFEB;       /* Areia suave secundário */
+  --color-bg-warm: #EDE6DE;         /* Apoio neutro quente */
+  --color-card-bg: #FFFFFF;         /* Fundo dos cartões / blocos de produto: Branco limpo */
 
-  /* Cor de Destaque / Acentos e Botões: Laranja Terracota da tipografia da logo */
-  --color-terracotta: #E74C24;      /* Laranja terracota / Coral vibrante */
-  --color-terracotta-hover: #CE3B15;/* Tom mais profundo no hover */
-  --color-terracotta-dark: #B52F0C;
-  --color-terracotta-light: #FDEEEA;/* Fundo sutil terracota */
+  /* Cor de Destaque / Acentos (Accent Color): Verde-água/azul suave (#7EA8A4) */
+  --color-accent: #7EA8A4;          /* Verde-água / azul suave litorâneo */
+  --color-accent-hover: #6B9692;    /* Tom mais profundo no hover */
+  --color-accent-dark: #4F7975;     /* Tom escuro para contrastes e texto */
+  --color-accent-light: #EBF3F2;    /* Fundo sutil verde-água */
+  --color-accent-soft: #DCEAE8;     /* Apoio suave */
+  --color-accent-border: #BCD4D2;   /* Linha fina verde-água */
 
-  /* Tom Suave de Apoio: Rosa blush / pêssego suave da florzinha da logo */
-  --color-blush: #F7C2B4;           /* Rosa blush suave */
-  --color-blush-border: #F5B8A8;    /* Borda blush delicada */
-  --color-blush-light: #FDF4F1;     /* Fundo suave blush */
-  --color-blush-soft: #F9DDD6;
+  /* Textos e Tipografia: Cinza escuro suave / grafite (#2D312E) */
+  --color-text-main: #2D312E;       /* Grafite suave principal */
+  --color-text-title: #2D312E;      /* Títulos em grafite elegante */
+  --color-text-muted: #5D635F;      /* Neutro médio para descrições */
+  --color-text-light: #89908B;      /* Suave para legendas e notas */
 
-  /* Textos e Títulos em Grafite Suave & Elegante (Sem preto 100% chapado) */
-  --color-text-main: #2B2B2B;       /* Grafite suave */
-  --color-text-title: #2B2B2B;      /* Chumbo elegante para títulos */
-  --color-text-muted: #5E5852;      /* Neutro médio para descrições */
-  --color-text-light: #8E867E;      /* Suave para legendas e notas */
+  /* Linhas e Bordas Sutis: Bege acinzentado bem discreto (#E8E4DC) */
+  --color-border: #E8E4DC;          /* Linha bege acinzentada discreta */
+  --color-border-subtle: #F1EDE5;   /* Linha ultrafina suave */
 
-  /* Linhas Finas e Acabamentos */
-  --color-border: #EADBCC;          /* Linha fina marfim quente */
-  --color-border-subtle: #F3EAE0;   /* Linha ultrafina */
-  --color-border-terracotta: #E74C24;
-  
-  /* WhatsApp */
-  --color-whatsapp: #1E834D;
-  --color-whatsapp-hover: #16683C;
+  /* WhatsApp Oficial */
+  --color-whatsapp: #25D366;
+  --color-whatsapp-dark: #1E834D;
 
-  /* Tipografia Sofisticada */
+  /* Tipografia Editorial & Minimalista */
   --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
   --font-sans: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
-  /* Sombras Quentes & Refinadas */
-  --shadow-subtle: 0 4px 18px rgba(231, 76, 36, 0.04);
-  --shadow-card: 0 6px 24px rgba(231, 76, 36, 0.07);
-  --shadow-hover: 0 12px 32px rgba(231, 76, 36, 0.12);
-  --shadow-terracotta: 0 6px 22px rgba(231, 76, 36, 0.28);
+  /* Sombras Apple-style Minimalistas & Limpas */
+  --shadow-subtle: 0 4px 18px rgba(45, 49, 46, 0.04);
+  --shadow-card: 0 6px 24px rgba(45, 49, 46, 0.05);
+  --shadow-hover: 0 12px 30px rgba(45, 49, 46, 0.08);
+  --shadow-accent: 0 4px 14px rgba(126, 168, 164, 0.28);
+  --shadow-accent-hover: 0 8px 24px rgba(126, 168, 164, 0.38);
 
-  --radius-xs: 4px;
-  --radius-sm: 6px;
-  --radius-md: 10px;
+  /* Cantos Suavemente Arredondados (12px a 16px - Estética Apple) */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 12px;
   --radius-lg: 16px;
+  --radius-xl: 20px;
   --radius-pill: 9999px;
 
   /* Transições suaves */
@@ -129,22 +129,22 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
   font-size: 0.72rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--color-terracotta);
+  color: var(--color-accent-dark);
   font-weight: 600;
   display: block;
   margin-bottom: 8px;
 }
 
 /* --------------------------------------------------------------------------
-   1. Barra de Avisos Superior (Blush & Terracota)
+   1. Barra de Avisos Superior (Areia & Acento Suave)
    -------------------------------------------------------------------------- */
 .announcement-bar {
-  background-color: var(--color-blush-light);
+  background-color: var(--color-accent-light);
   color: var(--color-text-main);
-  border-bottom: 1px solid var(--color-blush);
+  border-bottom: 1px solid var(--color-border);
   font-size: 0.76rem;
   letter-spacing: 0.08em;
-  padding: 9px 16px;
+  padding: 10px 16px;
   text-align: center;
 }
 
@@ -162,27 +162,27 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
 }
 
 .announcement-text strong {
-  color: var(--color-terracotta);
+  color: var(--color-accent-dark);
 }
 
 .announcement-highlight {
   display: inline-block;
-  padding: 3px 12px;
+  padding: 4px 14px;
   border-radius: var(--radius-pill);
   font-weight: 600;
-  background-color: var(--color-terracotta);
+  background-color: var(--color-accent);
   color: #FFFFFF;
   letter-spacing: 0.06em;
-  box-shadow: 0 2px 8px rgba(231, 76, 36, 0.25);
+  box-shadow: 0 2px 8px rgba(126, 168, 164, 0.25);
 }
 
 /* --------------------------------------------------------------------------
-   2. Cabeçalho / Navegação Sofisticada
+   2. Cabeçalho / Navegação Sofisticada (Vidro Fosco Apple)
    -------------------------------------------------------------------------- */
 .site-header {
-  background-color: rgba(251, 247, 242, 0.96);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  background-color: rgba(250, 248, 245, 0.94);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -217,7 +217,7 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
   font-family: var(--font-sans);
   font-size: 0.6rem;
   letter-spacing: 0.32em;
-  color: var(--color-terracotta);
+  color: var(--color-accent);
   font-weight: 600;
   margin-top: 3px;
   text-transform: uppercase;
@@ -242,7 +242,7 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
 
 .nav-link:hover,
 .nav-link.active {
-  color: var(--color-terracotta);
+  color: var(--color-accent-dark);
 }
 
 .nav-link.active::after {
@@ -252,7 +252,7 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
   left: 0;
   right: 0;
   height: 2px;
-  background-color: var(--color-terracotta);
+  background-color: var(--color-accent);
 }
 
 .header-actions {
@@ -260,27 +260,29 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
   align-items: center;
 }
 
-/* Botão Rápido de WhatsApp com Linhas Finas & Destaque Terracota */
+/* Botão Rápido de WhatsApp com Linhas Finas & Cantos Arredondados */
 .header-whatsapp-btn {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background-color: var(--color-blush-light);
-  color: var(--color-terracotta);
-  border: 1px solid var(--color-terracotta);
-  padding: 8px 18px;
-  border-radius: var(--radius-pill);
+  background-color: var(--color-accent-light);
+  color: var(--color-accent-dark);
+  border: 1px solid var(--color-accent-border);
+  padding: 9px 20px;
+  border-radius: var(--radius-md);
   font-size: 0.75rem;
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   transition: var(--transition);
 }
 
 .header-whatsapp-btn:hover {
-  background-color: var(--color-terracotta);
+  background-color: var(--color-accent);
   color: #FFFFFF;
-  box-shadow: 0 4px 14px rgba(231, 76, 36, 0.25);
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-accent);
+  transform: translateY(-1px);
 }
 
 .mobile-menu-btn {
@@ -330,8 +332,8 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
   font-weight: 600;
   color: #FFFFFF;
   margin-bottom: 18px;
-  background-color: rgba(231, 76, 36, 0.65);
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(126, 168, 164, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.45);
   padding: 6px 18px;
   border-radius: var(--radius-pill);
   backdrop-filter: blur(8px);
@@ -364,13 +366,13 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
   flex-wrap: wrap;
 }
 
-/* Botões com Linhas Finas & Acabamento Refinado */
+/* Botões com Linhas Finas & Acabamento Refinado Estilo Apple */
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 13px 30px;
-  border-radius: var(--radius-pill);
+  border-radius: var(--radius-md);
   font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -379,17 +381,17 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
 }
 
 .btn-primary {
-  background-color: var(--color-terracotta);
+  background-color: var(--color-accent);
   color: #FFFFFF;
-  border: 1px solid var(--color-terracotta);
-  box-shadow: var(--shadow-terracotta);
+  border: 1px solid var(--color-accent);
+  box-shadow: var(--shadow-accent);
 }
 
 .btn-primary:hover {
-  background-color: var(--color-terracotta-hover);
-  border-color: var(--color-terracotta-hover);
+  background-color: var(--color-accent-hover);
+  border-color: var(--color-accent-hover);
   transform: translateY(-2px);
-  box-shadow: 0 8px 26px rgba(231, 76, 36, 0.38);
+  box-shadow: var(--shadow-accent-hover);
 }
 
 .btn-outline-hero {
@@ -397,12 +399,13 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
   color: #FFFFFF;
   border: 1px solid rgba(255, 255, 255, 0.55);
   backdrop-filter: blur(6px);
+  border-radius: var(--radius-md);
   gap: 8px;
 }
 
 .btn-outline-hero:hover {
   background: #FFFFFF;
-  color: var(--color-terracotta);
+  color: var(--color-accent-dark);
   border-color: #FFFFFF;
 }
 
@@ -435,11 +438,11 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
   align-items: center;
   justify-content: center;
   background-color: #FFFFFF;
-  border: 1px solid var(--color-blush-border);
-  border-radius: 50%;
+  border: 1px solid var(--color-accent-border);
+  border-radius: var(--radius-md);
   flex-shrink: 0;
   box-shadow: var(--shadow-subtle);
-  color: var(--color-terracotta);
+  color: var(--color-accent);
 }
 
 .highlight-item h4 {
@@ -519,7 +522,7 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
 
 .filter-pill {
   padding: 8px 18px;
-  border-radius: var(--radius-pill);
+  border-radius: var(--radius-md);
   font-size: 0.74rem;
   font-weight: 500;
   letter-spacing: 0.1em;
@@ -532,15 +535,15 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
 }
 
 .filter-pill:hover {
-  border-color: var(--color-terracotta);
-  color: var(--color-terracotta);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
 }
 
 .filter-pill.active {
-  background-color: var(--color-terracotta);
+  background-color: var(--color-accent);
   color: #FFFFFF;
-  border-color: var(--color-terracotta);
-  box-shadow: 0 4px 14px rgba(231, 76, 36, 0.2);
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-accent);
 }
 
 .size-filter-wrap {
@@ -564,7 +567,7 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
 
 .size-pill {
   padding: 5px 12px;
-  border-radius: var(--radius-pill);
+  border-radius: var(--radius-sm);
   font-size: 0.72rem;
   font-weight: 500;
   letter-spacing: 0.06em;
@@ -575,14 +578,14 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
 }
 
 .size-pill:hover {
-  border-color: var(--color-terracotta);
-  color: var(--color-terracotta);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
 }
 
 .size-pill.active {
-  background-color: var(--color-terracotta);
+  background-color: var(--color-accent);
   color: #FFFFFF;
-  border-color: var(--color-terracotta);
+  border-color: var(--color-accent);
 }
 
 .catalog-status {
@@ -595,38 +598,45 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
 }
 
 /* --------------------------------------------------------------------------
-   6. Grade de Produtos & Cards (Minimalista Editorial - Respiro Amplo & Linhas Finas)
+   6. Grade de Produtos & Cards (Minimalista Apple - Fundo Branco Limpo & Cantos Suaves)
    -------------------------------------------------------------------------- */
 .catalog-section {
-  padding: 100px 0 120px;
+  padding: 80px 0 100px;
 }
 
 .product-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 52px 30px; /* Amplo respiro entre os produtos */
+  gap: 40px 24px; /* Amplo respiro entre os produtos */
 }
 
-/* Card Limpo: Sem caixas bege pesadas, sem bordas grossas */
+/* Card Apple Minimalista: Fundo branco limpo, cantos suaves 16px, borda sutil, sombra levíssima */
 .product-card {
-  background-color: transparent;
-  border: none;
-  box-shadow: none;
-  border-radius: 0;
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 12px 12px 18px;
+  box-shadow: var(--shadow-card);
   display: flex;
   flex-direction: column;
   position: relative;
   transition: var(--transition);
 }
 
-/* Foto do Produto: Grande protagonista, vertical (3:4) */
+.product-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-accent-border);
+  box-shadow: var(--shadow-hover);
+}
+
+/* Foto do Produto: Grande protagonista, vertical (3:4), cantos arredondados 12px */
 .product-photo-wrap {
   position: relative;
   width: 100%;
   aspect-ratio: 3 / 4;
-  border-radius: 8px;
+  border-radius: var(--radius-md);
   overflow: hidden;
-  background-color: #F4EFEA;
+  background-color: var(--color-bg-subtle);
 }
 
 .product-photo {
@@ -650,19 +660,19 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   padding: 3px 9px;
-  border-radius: var(--radius-pill);
+  border-radius: var(--radius-xs);
   font-size: 0.64rem;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--color-terracotta);
-  border: 1px solid rgba(231, 76, 36, 0.22);
+  color: var(--color-accent-dark);
+  border: 1px solid var(--color-accent-border);
   z-index: 2;
 }
 
 /* Informações do Produto: Tipografia fina e editorial */
 .product-info-body {
-  padding: 14px 2px 0;
+  padding: 14px 4px 0;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -721,31 +731,33 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
   font-weight: 400;
 }
 
-/* Botão de Reserva Minimalista: Fundo transparente, borda fina terracota */
+/* Botão "Reservar no WhatsApp" em destaque com a cor da marca (#7EA8A4), cantos arredondados (12px a 14px) */
 .btn-reserve-whatsapp {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 6px;
-  width: fit-content;
-  padding: 6px 16px;
-  background-color: transparent;
-  color: var(--color-terracotta);
-  border: 1px solid var(--color-terracotta);
-  border-radius: var(--radius-pill);
-  font-size: 0.72rem;
+  gap: 8px;
+  width: 100%;
+  padding: 10px 16px;
+  background-color: var(--color-accent);
+  color: #FFFFFF;
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius-md);
+  font-size: 0.74rem;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   transition: var(--transition);
-  box-shadow: none;
+  box-shadow: var(--shadow-accent);
+  margin-top: auto;
 }
 
 .btn-reserve-whatsapp:hover {
-  background-color: var(--color-terracotta);
+  background-color: var(--color-accent-hover);
+  border-color: var(--color-accent-hover);
   color: #FFFFFF;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(231, 76, 36, 0.22);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-accent-hover);
 }
 
 .btn-reserve-whatsapp .wa-icon {
@@ -781,8 +793,8 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
   aspect-ratio: 3 / 4;
   object-fit: cover;
   object-position: center;
-  border-radius: 12px;
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.06);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
   border: 1px solid var(--color-border);
 }
 
@@ -830,9 +842,10 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-blush-light);
-  border: 1px solid var(--color-blush);
-  border-radius: 50%;
+  background-color: var(--color-accent-light);
+  border: 1px solid var(--color-accent-border);
+  color: var(--color-accent-dark);
+  border-radius: var(--radius-sm);
   flex-shrink: 0;
 }
 
@@ -851,24 +864,24 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
   justify-content: center;
   gap: 8px;
   width: fit-content;
-  padding: 11px 24px;
-  background-color: var(--color-terracotta);
+  padding: 12px 26px;
+  background-color: var(--color-accent);
   color: #FFFFFF;
-  border: 1px solid var(--color-terracotta);
-  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius-md);
   font-size: 0.74rem;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   transition: var(--transition);
-  box-shadow: 0 4px 14px rgba(231, 76, 36, 0.22);
+  box-shadow: var(--shadow-accent);
 }
 
 .btn-gift-whatsapp:hover {
-  background-color: var(--color-terracotta-hover);
-  border-color: var(--color-terracotta-hover);
+  background-color: var(--color-accent-hover);
+  border-color: var(--color-accent-hover);
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(231, 76, 36, 0.32);
+  box-shadow: var(--shadow-accent-hover);
 }
 
 /* --------------------------------------------------------------------------
@@ -889,10 +902,10 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
 .size-guide-card,
 .reservation-steps-card {
   background-color: #FFFFFF;
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-lg);
   border: 1px solid var(--color-border);
   padding: 36px;
-  box-shadow: var(--shadow-subtle);
+  box-shadow: var(--shadow-card);
 }
 
 .guide-title {
@@ -920,12 +933,12 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
 }
 
 .size-table th {
-  background-color: var(--color-blush-light);
+  background-color: var(--color-accent-light);
   padding: 11px 14px;
   color: var(--color-text-main);
   font-weight: 600;
   letter-spacing: 0.05em;
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-accent-border);
 }
 
 .size-table td {
@@ -948,10 +961,10 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
 .step-number {
   width: 28px;
   height: 28px;
-  border-radius: 50%;
-  border: 1px solid var(--color-terracotta);
-  background-color: var(--color-terracotta-light);
-  color: var(--color-terracotta);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-accent-border);
+  background-color: var(--color-accent-light);
+  color: var(--color-accent-dark);
   font-weight: 700;
   font-size: 0.78rem;
   display: flex;
@@ -977,14 +990,17 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
 .btn-block {
   width: 100%;
   margin-top: auto;
-  border: 1px solid var(--color-terracotta);
-  background-color: var(--color-terracotta);
+  border: 1px solid var(--color-accent);
+  background-color: var(--color-accent);
   color: #FFFFFF;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-accent);
 }
 
 .btn-block:hover {
-  background-color: var(--color-terracotta-hover);
-  border-color: var(--color-terracotta-hover);
+  background-color: var(--color-accent-hover);
+  border-color: var(--color-accent-hover);
+  box-shadow: var(--shadow-accent-hover);
 }
 
 /* --------------------------------------------------------------------------
@@ -1011,10 +1027,10 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
 .artisan-card {
   background-color: #FFFFFF;
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-lg);
   padding: 30px 22px;
   text-align: center;
-  box-shadow: var(--shadow-subtle);
+  box-shadow: var(--shadow-card);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1023,17 +1039,17 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
 
 .artisan-card:hover {
   transform: translateY(-3px);
-  box-shadow: var(--shadow-card);
-  border-color: var(--color-blush-border);
+  box-shadow: var(--shadow-hover);
+  border-color: var(--color-accent-border);
 }
 
 .artisan-icon-wrap {
   width: 48px;
   height: 48px;
-  border-radius: 50%;
-  border: 1px solid var(--color-blush);
-  background-color: var(--color-blush-light);
-  color: var(--color-terracotta);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-accent-border);
+  background-color: var(--color-accent-light);
+  color: var(--color-accent);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1059,7 +1075,7 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
    10. Rodapé Sofisticado
    -------------------------------------------------------------------------- */
 .site-footer {
-  background-color: #FAF4ED;
+  background-color: var(--color-bg-subtle);
   color: var(--color-text-main);
   padding: 70px 0 0;
   border-top: 1px solid var(--color-border);
@@ -1083,7 +1099,7 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
   display: block;
   font-size: 0.62rem;
   letter-spacing: 0.3em;
-  color: var(--color-terracotta);
+  color: var(--color-accent);
   font-weight: 600;
   margin-bottom: 14px;
 }
@@ -1102,7 +1118,7 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
   font-size: 0.74rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--color-terracotta);
+  color: var(--color-accent);
   font-weight: 600;
 }
 
@@ -1136,7 +1152,7 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
 }
 
 .footer-col a:hover {
-  color: var(--color-terracotta);
+  color: var(--color-accent);
 }
 
 .footer-bottom {
@@ -1156,7 +1172,7 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
 }
 
 /* --------------------------------------------------------------------------
-   11. Botão Flutuante de WhatsApp (Terracota da Marca)
+   11. Botão Flutuante de WhatsApp (Salsa Mar Accent)
    -------------------------------------------------------------------------- */
 .floating-wa-btn {
   position: fixed;
@@ -1165,20 +1181,20 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
   width: 54px;
   height: 54px;
   border-radius: 50%;
-  background-color: var(--color-terracotta);
+  background-color: var(--color-accent);
   color: #FFFFFF;
   border: 1px solid rgba(255, 255, 255, 0.4);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 8px 24px rgba(231, 76, 36, 0.35);
+  box-shadow: 0 8px 24px rgba(126, 168, 164, 0.45);
   z-index: 999;
   transition: var(--transition);
 }
 
 .floating-wa-btn:hover {
   transform: scale(1.08);
-  background-color: var(--color-terracotta-hover);
+  background-color: var(--color-accent-hover);
 }
 
 .floating-wa-pulse {
@@ -1188,7 +1204,7 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: var(--color-blush);
+  background-color: var(--color-accent-border);
   opacity: 0.6;
   animation: pulse-ring 2.5s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
   z-index: -1;
@@ -1282,6 +1298,7 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
 
   .header-whatsapp-btn {
     padding: 7px;
+    border-radius: var(--radius-sm);
   }
 
   .hero-section {
@@ -1318,7 +1335,16 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
   /* GRADE NO CELULAR: EXATAMENTE 2 PRODUTOS POR LINHA COM CARDS BEM ALINHADOS & RESPIRO */
   .product-grid {
     grid-template-columns: repeat(2, 1fr) !important;
-    gap: 32px 14px !important;
+    gap: 20px 12px !important;
+  }
+
+  .product-card {
+    padding: 10px 10px 14px;
+    border-radius: 14px;
+  }
+
+  .product-photo-wrap {
+    border-radius: 10px;
   }
 
   .product-info-body {
@@ -1359,10 +1385,11 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
 
   .btn-reserve-whatsapp {
     width: 100%;
-    padding: 7px 8px;
+    padding: 9px 8px;
     font-size: 0.68rem;
     letter-spacing: 0.05em;
     gap: 5px;
+    border-radius: 10px;
     justify-content: center;
   }
 
@@ -1390,16 +1417,22 @@ h1, h2, h3, h4, .brand-title, .section-title, .product-name, .guide-title, .arti
     width: 100%;
     padding: 11px 16px;
     font-size: 0.72rem;
+    border-radius: var(--radius-md);
     justify-content: center;
   }
 
   .size-guide-card, 
   .reservation-steps-card {
     padding: 24px 16px;
+    border-radius: 14px;
   }
 
   .artisan-care-section {
     padding: 60px 0;
+  }
+
+  .artisan-card {
+    border-radius: 14px;
   }
 
   .footer-content {
